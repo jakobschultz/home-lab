@@ -1,0 +1,76 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="atDq6Gn8EgpOIrCHFkfa">
+    <mxGraphModel dx="808" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,transparent)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="ISP" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="UBIQUITI EXPRESS 7 (AP for Home Network)" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Mikrotik Router" vertex="1">
+          <mxGeometry height="30" width="120" x="500" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-4" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-2" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;" target="hQF2juVCHY57e9Q5P0-U-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Unmanaged Network Switch" vertex="1">
+          <mxGeometry height="30" width="120" x="130" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Proxmox Host" vertex="1">
+          <mxGeometry height="30" width="120" x="550" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-8" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-7" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;" target="hQF2juVCHY57e9Q5P0-U-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-12" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-3" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;elbow=vertical;startArrow=none;startFill=0;labelBackgroundColor=none;fontColor=default;edgeStyle=orthogonalEdgeStyle;curved=0;" target="hQF2juVCHY57e9Q5P0-U-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-13" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-6" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;" target="hQF2juVCHY57e9Q5P0-U-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Home PC" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-16" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-14" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="hQF2juVCHY57e9Q5P0-U-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="420" as="sourcePoint" />
+            <mxPoint x="530" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="Game Console" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-19" edge="1" parent="1" source="hQF2juVCHY57e9Q5P0-U-17" style="endArrow=none;html=1;rounded=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=0;strokeWidth=2;labelBackgroundColor=none;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="hQF2juVCHY57e9Q5P0-U-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="430" as="sourcePoint" />
+            <mxPoint x="260" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="VM1" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="VM2" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hQF2juVCHY57e9Q5P0-U-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" value="VM3" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
