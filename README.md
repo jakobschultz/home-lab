@@ -27,4 +27,7 @@ Core Technologies:
 
 ## Current Projects
 
+## Network Diagram
+
+![Network Diagram](diagrams/network-diagram.png)
 
