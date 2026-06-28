@@ -50,7 +50,9 @@ Range:
 192.168.20.100 - 192.168.20.200
 
 Reserved addresses:
+
 .1 Gateway
+
 .2 Switch
 
 ---
@@ -61,8 +63,12 @@ Devices follow this naming format:
 TYPE-NAME
 
 Examples:
+---
 SRV-PROXMOX
+
 SRV-PIHOLE
+
 NET-SWITCH01
+
 RTR-FIREWALL
 
