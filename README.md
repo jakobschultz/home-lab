@@ -25,8 +25,8 @@ Core Technologies:
 - Grafana
 - Ansible
 
-## Current Projects
-Building the homelab
+## Status
+See ROADMAP.md for current progress.
 
 ## Network Diagram
 
