@@ -55,20 +55,3 @@ Reserved addresses:
 
 .2 Switch
 
----
-
-# Naming Convention
-
-Devices follow this naming format:
-TYPE-NAME
-
-Examples:
----
-SRV-PROXMOX
-
-SRV-PIHOLE
-
-NET-SWITCH01
-
-RTR-FIREWALL
-
