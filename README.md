@@ -26,6 +26,7 @@ Core Technologies:
 - Ansible
 
 ## Current Projects
+Building the homelab
 
 ## Network Diagram
 
