@@ -44,3 +44,25 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 ## DHCP Scope
 
 Network:
+192.168.20.0/24
+
+Range:
+192.168.20.100 - 192.168.20.200
+
+Reserved addresses:
+.1 Gateway
+.2 Switch
+
+---
+
+# Naming Convention
+
+Devices follow this naming format:
+TYPE-NAME
+
+Examples:
+SRV-PROXMOX
+SRV-PIHOLE
+NET-SWITCH01
+RTR-FIREWALL
+
