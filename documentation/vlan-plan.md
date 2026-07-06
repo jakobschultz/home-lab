@@ -79,20 +79,10 @@ The goal is to improve security, isolate network traffic, and simulate enterpris
 
 ## Firewall Philosophy
 
-- Default deny between VLANs
-- Explicit allow rules only
-- Management network is highly restricted
-- IoT and Guest networks are isolated by default
 
 ---
 
 ## Future Expansion
-
-Planned additions:
-- VLAN for VPN users
-- VLAN for backups
-- Separate DMZ VLAN for public-facing services
-- Micro-segmentation within server VLAN
 
 ---
 
