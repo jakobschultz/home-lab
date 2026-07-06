@@ -13,7 +13,7 @@ A self-hosted enterprise-style lab environment built to practice:
 
 Hardware:
 - Proxmox Server
-- Managed Switch
+- Managed Layer 3 Switch
 - Mikrotik Firewall/Router
 
 Core Technologies:
