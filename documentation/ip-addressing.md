@@ -12,10 +12,10 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 
 | Network | Purpose | Subnet |
 |---|---|---|
-| Management | Network infrastructure devices | 192.168.1.0/24 |
-| Servers | Virtual machines and services | 192.168.10.0/24 |
-| Clients | Personal devices | 192.168.20.0/24 |
-| IoT | Smart devices | 192.168.30.0/24 |
+| Management | Network infrastructure devices | 192.168.10.0/24 |
+| Servers | Virtual machines and services | 192.168.20.0/24 |
+| Clients | Personal devices | 192.168.30.0/24 |
+| IoT | Smart devices | 192.168.40.0/24 |
 
 ---
 
@@ -23,8 +23,8 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 
 | Device | IP Address | Notes |
 |---|---|---|
-| Router/Firewall | 192.168.1.1 | Default gateway |
-| Managed Switch | 192.168.1.2 | Network management |
+| Router/Firewall | 192.168.10.1 | Default gateway |
+| Managed Switch | 192.168.10.2 | Network management |
 | Proxmox Host | 192.168.10.10 | Hypervisor |
 
 ---
@@ -33,9 +33,7 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 
 | VM Name | IP Address | Purpose |
 |---|---|---|
-| Pi-hole | 192.168.10.20 | DNS server |
-| Docker Host | 192.168.10.30 | Container services |
-| Monitoring | 192.168.10.40 | Grafana/Prometheus |
+
 
 ---
 
@@ -44,10 +42,10 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 ## DHCP Scope
 
 Network:
-192.168.20.0/24
+192.168.30.0/24
 
 Range:
-192.168.20.100 - 192.168.20.200
+192.168.30.100 - 192.168.30.200
 
 Reserved addresses:
 
