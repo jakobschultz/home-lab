@@ -16,6 +16,7 @@ The goal is to keep devices organized and allow for future expansion, VLAN segme
 | Servers | Virtual machines and services | 192.168.20.0/24 |
 | Clients | Personal devices | 192.168.30.0/24 |
 | IoT | Smart devices | 192.168.40.0/24 |
+| Guest | Guest WIFI | 192.168.50.0/24 |
 
 ---
 
