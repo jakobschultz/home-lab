@@ -16,7 +16,7 @@ Hardware:
 - Managed Layer 3 Switch
 - Mikrotik Firewall/Router
 
-Core Technologies:
+Core Technologies (in progress) :
 - Proxmox VE
 - VLANs
 - Docker
