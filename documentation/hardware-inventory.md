@@ -2,18 +2,11 @@
 Quick overview of what hardware is in the homelab
 
 ## Router
+Mikrotik hEX S RB760iGS Router
 
 ## Layer 3 Switch
+Cisco Catalyst 3560-CG Series PD
 
 ## Proxmox Server
-On the way from Ebay
+Dell OptiPlex 5060 Micro i5-8500T
 
-# Hardware of Home Network
-
-## Desktop
-
-## Management Laptop
-
-## Router
-
-## Managed Layer 2 Switch 
