@@ -37,8 +37,8 @@ The design prioritizes:
 
 | Technology        | Purpose                                              |
 | ----------------- | ---------------------------------------------------- |
-| MikroTik RouterOS | Lab routing, firewalling, and network segmentation   |
-| Cisco IOS         | Switching, VLANs, trunking, and access port practice |
+| MikroTik RouterOS | Firewalling, and outside routing   |
+| Cisco IOS         | Inter-VLAN routing, Switching, VLANs, trunking, and access port practice |
 | Proxmox VE        | Virtualization platform                              |
 | Linux             | Server administration and service hosting            |
 | Docker            | Application hosting inside Linux virtual machines    |
