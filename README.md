@@ -69,5 +69,5 @@ See [ROADMAP.md](ROADMAP.md) for the current phase, next steps, and future impro
 
 ## Network Diagram
 
-![Network Diagram](diagrams/network-diagram.png)
+![Network Diagram](diagrams/network-diagram.drawio.png)
 
