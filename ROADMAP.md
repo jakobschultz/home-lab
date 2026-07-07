@@ -13,19 +13,14 @@ Goal: define the intended network design before powering on hardware.
 * [x] Create initial VLAN plan
 * [x] Create initial IP addressing plan
 * [x] Create initial network diagram
-* [ ] Finalize hardware inventory
-* [ ] Finalize physical topology
-* [ ] Create port map
-* [ ] Decide how the lab connects to the home network
-* [ ] Decide where inter-VLAN routing will happen
-* [ ] Decide where DHCP will run
-* [ ] Decide what device acts as the lab firewall
-* [ ] Decide which VLAN is used for management access
+* [X] Finalize hardware inventory
+* [X] Finalize physical topology
+* [X] Decide how the lab connects to the home network
+* [X] Decide where inter-VLAN routing will happen
+* [X] Decide which VLAN is used for management access
 * [ ] Define basic firewall philosophy
-* [ ] Define which VLANs can communicate with each other
-* [ ] Define which VLANs are blocked from management access
-* [ ] Define recovery plan if management access breaks
-* [ ] Define first implementation order
+* [X] Define which VLANs can communicate with each other
+* [X] Define first implementation order
 
 ### Phase 1 Design Decisions
 
