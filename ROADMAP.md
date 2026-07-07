@@ -31,9 +31,9 @@ Goal: define the intended network design before powering on hardware.
 | Hypervisor             | Proxmox                                                 | Planned  |
 | VLAN design            | MGMT, SERVERS, CLIENTS, IOT, GUEST                      | Planned  |
 | IP addressing          | 192.168.10.0/24 through 192.168.50.0/24                 | Planned  |
-| Lab-to-home connection | TBD                                                     | Open     |
-| Inter-VLAN routing     | TBD                                                     | Open     |
-| DHCP location          | TBD                                                     | Open     |
+| Lab-to-home connection | Port 8 on Netgear managed switch in home network to WAN port on MikroTik router | Planned     |
+| Inter-VLAN routing     | Cisco Catalyst Switch                                   | Planned     |
+| DHCP location          | MikroTik Router                                                     | Planned     |
 | Firewall policy        | Default deny between VLANs, allow only required traffic | Proposed |
 | Management access      | TBD                                                     | Open     |
 
