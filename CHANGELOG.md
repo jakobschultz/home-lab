@@ -1,4 +1,4 @@
-# Change Log
+# Example Change Log
 
 ## Format
 All changes are documented using:
@@ -12,3 +12,10 @@ All changes are documented using:
 - Initial repo structure created
 - Added VLAN documentation
 - Defined IP addressing scheme
+
+
+# Change Log
+
+### 2026-07-06
+- Complete overhaul of documentation folder
+- Created baseline for documentation for the rest of the project
