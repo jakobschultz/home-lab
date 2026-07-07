@@ -12,7 +12,7 @@ VLAN 20 will be in subnet 192.168.20.X
 
 2. Uplink will be routed link to Mikrotik router
 
-3. If another Layer 3 switch is added later it will use a different but similar subnet
+3. If another Layer 3 switch is added later it will use a different but similar subnet  
 Example:  
 VLAN 10 on the new switch will be 192.168.110.X  
 Why?  
