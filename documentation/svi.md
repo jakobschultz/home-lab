@@ -79,10 +79,9 @@ When a device in one VLAN needs to communicate with a device in another VLAN, tr
 |---|---|---|---|
 | VLAN 10 | Management | 10.10.10.0/24 | 10.10.10.1 |
 | VLAN 20 | Servers | 10.10.20.0/24 | 10.10.20.1 |
-| VLAN 30 | Lab / Testing | 10.10.30.0/24 | 10.10.30.1 |
-| VLAN 40 | Monitoring | 10.10.40.0/24 | 10.10.40.1 |
-| VLAN 50 | Clients | 10.10.50.0/24 | 10.10.50.1 |
-| VLAN 60 | Guest / Untrusted | 10.10.60.0/24 | 10.10.60.1 |
+| VLAN 30 | Clients | 10.10.30.0/24 | 10.10.30.1 |
+| VLAN 40 | IOT | 10.10.40.0/24 | 10.10.40.1 |
+| VLAN 50 | Guest | 10.10.50.0/24 | 10.10.50.1 |
 
 The final VLAN list may change as the lab design develops.
 
