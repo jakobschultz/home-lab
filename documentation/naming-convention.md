@@ -1,4 +1,4 @@
-# Naming Convention
+# Naming Convention for Host Names
 
 ## Format
 TYPE-ROLE-ID
