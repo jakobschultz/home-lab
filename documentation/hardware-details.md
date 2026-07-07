@@ -2,4 +2,4 @@
 
 Document details of hardware such as, model, os, etc.
 
-#Mikrotik Router
+## Mikrotik Router
