@@ -58,10 +58,10 @@ Phase 1 is complete when:
 
 Goal: power on the hardware, verify access, and document the real device details.
 
-* [ ] Power on MikroTik router
-* [ ] Verify access to MikroTik
+* [X] Power on MikroTik router
+* [X] Verify access to MikroTik
 * [ ] Record MikroTik model and RouterOS version
-* [ ] Power on Cisco switch
+* [X] Power on Cisco switch
 * [ ] Verify console access to Cisco switch
 * [ ] Record Cisco switch model and IOS version
 * [ ] Power on Proxmox server
