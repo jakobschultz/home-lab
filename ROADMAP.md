@@ -62,10 +62,10 @@ Goal: power on the hardware, verify access, and document the real device details
 * [X] Verify access to MikroTik
 * [ ] Record MikroTik model and RouterOS version
 * [X] Power on Cisco switch
-* [ ] Verify console access to Cisco switch
+* [x] Verify console access to Cisco switch
 * [ ] Record Cisco switch model and IOS version
-* [ ] Power on Proxmox server
-* [ ] Verify BIOS/UEFI access
+* [X] Power on Proxmox server
+* [X] Verify BIOS/UEFI access
 * [ ] Record CPU, RAM, storage, and NIC details
 * [ ] Install Proxmox
 * [ ] Assign Proxmox management IP
