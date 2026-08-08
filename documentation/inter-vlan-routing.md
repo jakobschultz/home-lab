@@ -16,4 +16,4 @@ VLAN 20 will be in subnet 192.168.20.X
 Example:  
 VLAN 10 on the new switch will be 192.168.110.X  
 Why?  
-I want to treat this as if I am setting up a new layer 3 switch that will be providing connectivity on a different floor of an office than the first one.
+I want to treat this as if I am setting up a new layer 3 switch that will be providing connectivity on a different floor of an office than the first one. Sort of like simulating a new aggragation switch.
