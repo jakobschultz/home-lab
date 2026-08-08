@@ -54,3 +54,6 @@ Reserved addresses:
 
 .2 Switch
 
+# Network Quirks
+Routed link between Mikrotik Router and Cisco Switch uses 192.168.254.0/30
+
